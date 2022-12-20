@@ -1,0 +1,45 @@
+{
+  "name": "scss-exercise",
+  "version": "1.0.0",
+  "description": "This repository is to studying the scss.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "brawsersist": [
+    "last 2 version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manjuSnack/scss-exercise.git"
+  },
+  "author": "manjuSnack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manjuSnack/scss-exercise/issues"
+  },
+  "homepage": "https://github.com/manjuSnack/scss-exercise#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "babelify": "^10.0.0",
+    "del": "^4.1.1",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-image": "^6.2.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "6.0",
+    "sass": "^1.57.1",
+    "uglifyify": "^5.0.2"
+  }
+}

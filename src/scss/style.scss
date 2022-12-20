@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:width@300,400&display=swap");
+
+@import ".reset.scss";
+@import ".variable.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $white;
+  width: $fixedWidth;
+  height: 100%;
+  padding: 10vh 0 0 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $red;
+  h1 {
+    font-size: 80px;
+    width: 50%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  h3 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  h3,
+  p {
+    width: 80%;
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  nav {
+    width: 80%;
+    margin-bottom: 10vh;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      cursor: pointer;
+      margin-right: 12px;
+      font-size: 18px;
+      color: black;
+      opacity: 0.5;
+      padding-bottom: 5px;
+      border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+      margin-bottom: 15px;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+main {
+  margin-left: $fixedWidth;
+  .collections {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 5%,
+        transparent,
+        transparent,
+        transparent,
+        transparent
+      )
+      $red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: $white;
+    .wrapper {
+      width: 80vh;
+      display: flex;
+      flex-direction: column;
+      .collection__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        h4 {
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+        h5 {
+          font-size: 18px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+    img {
+      width: 100%;
+      /* offset-x | offset-y | blur-radius | spread-radius | color */
+      box-shadow: 0 80px 80px -80px #000;
+    }
+  }
+}
