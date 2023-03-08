@@ -1,0 +1,7 @@
+/* 1.0~1.1 Life Before Flexbox, First Rule of Flexbox */
+.box {
+  background-color: beige;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}

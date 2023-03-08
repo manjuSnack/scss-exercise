@@ -1,0 +1,50 @@
+---
+
+SCSS 
+
+에러, 설치방법 등을 메모
+
+---
+
+🥞 SCSS, Flexbox, CSS Grid
+
+-🥞 #Theory
+
+--🥞 Flexbox
+
+Main Axis / Cross Axis
+Column and Row
+align-self and order
+Wrap, nowrap, reverse, align
+flex-grow, flex-shrink
+flex-basis
+many more...
+
+--🥞 Grid
+template areas
+rows and columns
+grid-template
+place-items
+auto-columns, auto-rows
+minmax
+auto-fill, auto-fit
+many more...
+
+--🥞 SCSS
+Variables
+Nesting
+Mixins
+Extends
+
+---
+
+🥞 0.2 Introduction, 0.3 What are we using
+
+🥞 #1 FLEXBOX, 1.0 Life Before Flexbox
+
+- 여기서부터 학습할 것
+
+🥞 #1.2 Main Axis and Cross Axis
+
+🥞 #1.3 Column and Row
+

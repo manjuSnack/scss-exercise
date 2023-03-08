@@ -1,0 +1,13 @@
+/* 1.2 Main Axis and Cross Axis */
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  background-color: plum;
+  color: white;
+}
