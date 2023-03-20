@@ -4,8 +4,8 @@
   justify-content: space-around;
   height: 100vh;
   /* wrap, nowrap 
-    nowrap은 기본값이며 크기를 지키지 않는다, wrap은 크기를 보존한다.
-  */
+      nowrap은 기본값이며 크기를 지키지 않는다, wrap은 크기를 보존한다.
+    */
   /* flex-wrap: wrap; */
   flex-wrap: nowrap;
 
@@ -15,8 +15,8 @@
 
   /* align-content */
   /*
-    cross-axis의 기본적인 사이사이 빈 공간을 무시하고 위치를 정렬한다.
-  */
+      cross-axis의 기본적인 사이사이 빈 공간을 무시하고 위치를 정렬한다.
+    */
   align-content: flex-start;
 }
 

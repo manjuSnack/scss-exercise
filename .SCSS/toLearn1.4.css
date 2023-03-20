@@ -1,0 +1,28 @@
+/* #1.4 align-self and order */
+.father {
+  display: flex;
+  /* Main Axis */
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: plum;
+  color: white;
+  font-size: 50px;
+}
+
+.child:nth-child(1) {
+  order: 3;
+}
+
+.child:nth-child(2) {
+  align-self: center; /* 개별로 align-items를 조정할 땐 align-self를 사용 */
+  order: 1; /* order 기본값은 0이다. */
+}
+
+.child:nth-child(3) {
+  align-self: flex-end;
+}
