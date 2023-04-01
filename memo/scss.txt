@@ -62,3 +62,20 @@ justify-content, align-content
 
 : 기본적인 사이사이 간격은 무시한채 위치해 정렬한다.
 
+# 1.6 flex-grow, flex-shrink
+
+---
+
+--🥤 VSCode 자동완성 단축키 
+
+!
+: html 기본문서 자동완성
+
+div.클래스명
+: <div class="클래스명"></div>
+
+div#아이디명
+: <div id="아이디명"></div>
+
+div.클래스명*3{$}
+: 3개의 같은 이름의 클래스인 div와 각 내용은 1, 2, 3 순서대로 작성 

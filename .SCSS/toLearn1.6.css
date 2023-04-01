@@ -1,3 +1,4 @@
+/* 1.6 flex-grow, flex-shrink */
 .father {
   display: flex;
   justify-content: space-around;
